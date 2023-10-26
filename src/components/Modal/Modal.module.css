@@ -1,0 +1,114 @@
+.updateModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 24vh 20vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+.updateModalOptions {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 2.777vw;
+    background-color: #fff;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalHeading {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    letter-spacing: -0.02em;
+    color: #222F3E;
+}
+
+.rank,
+.percentile,
+.score {
+    display: flex;
+    margin: 1.3888vw 0; 
+    padding: 0 0.5vw;
+    justify-content: space-between;
+}
+
+.input_bar {
+    display: flex;
+    align-items: center;
+}
+
+.input_bar span {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.02em;
+    color: #566474;
+    margin-left: 0.6rem;
+}
+
+.number {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #142683;
+}
+
+.form input {
+    width: 8.5rem;
+    height: 2.25rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid #142683;
+}
+
+.buttons {
+    display: flex;
+    padding: 1vh 0.5vw;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.02em;
+}
+
+.cancelBtn {
+    width: 6.388vw;
+    height: 3.0555vw;
+    color: #142683;
+    background-color: #fff;
+    border: 1px solid #142683;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitBtn {
+    width: 6.388vw;
+    height: 3.0555vw;
+    color: #fff;
+    border: 1px solid #142683;
+    margin-left: 1vw;
+    background: #142683;
+    border-radius: 5px;
+    cursor: pointer;
+}

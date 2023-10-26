@@ -1,0 +1,25 @@
+.skillTest {
+    text-align: left;
+    height: calc(100vh - 6.1111vw);
+    padding: 0 2.77vw;
+    border-left: 2px solid #EBF0F5;
+    overflow-y: scroll;
+}
+
+.pageTitle {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: -0.02em;
+    color: #566474;
+    padding: 2.083vw 0;
+}
+
+.pageComponents {
+    display: flex;
+}
+
+.skillTestLeft {
+    margin-right: 2.083vw;
+}

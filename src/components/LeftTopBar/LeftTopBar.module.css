@@ -1,0 +1,51 @@
+.LeftTopBar {
+    padding: 2.083vw;
+    border: 1px solid #EBF0F5;
+    display: flex;
+    align-items: center;
+    min-width: 49.79vw;
+    border-radius: 5px;
+}
+
+.html {
+    width: 2.5vw;
+    height: 3.472vw;
+}
+
+.LeftTopBarDes {
+    padding-left: 1.388vw;
+}
+
+.title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    letter-spacing: -0.02em;
+    color: #222F3E;
+}
+
+.subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 180%;
+    letter-spacing: -0.02em;
+    color: #566474;
+}
+
+.updateBtn {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.02em;
+    background: #142683;
+    border-radius: 5px;
+    width: 8.333vw;
+    height: 3.055vw;
+    margin-left: auto;
+    border: 0;
+    cursor: pointer;
+}

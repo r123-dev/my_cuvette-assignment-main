@@ -1,0 +1,35 @@
+.question_wise {
+    padding: 2.083vw;
+    margin-top: 2.0833vw;
+    border: 1px solid #EBF0F5;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title,
+.questions_score {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    letter-spacing: -0.02em;
+    padding-bottom: 1.3888vw;
+    color: #222F3E;
+}
+
+.questions_score {
+    padding-bottom: 0;
+    color: #438AF6;
+}
+
+.subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #566474;
+}

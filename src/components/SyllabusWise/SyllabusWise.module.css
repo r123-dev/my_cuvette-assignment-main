@@ -1,0 +1,44 @@
+.syllabus_wise {
+    padding: 2.083vw;
+    border: 1px solid #EBF0F5;
+    border-radius: 5px;
+}
+
+.title,
+.subtitle,
+.score_number {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    letter-spacing: -0.02em;
+    padding-bottom: 1.3888vw;
+    color: #222F3E;
+}
+
+.syllabus_scores > div {
+    padding-bottom: 1.055vw;
+}
+
+.subtitle {
+    font-weight: 400;
+    color: #566474;
+    padding-bottom: 0.97vw;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score_bar {
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #d4e5ff;
+}
+
+.score_number {
+    padding-bottom: 0;
+}
